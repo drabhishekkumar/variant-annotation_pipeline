@@ -1,6 +1,6 @@
 ## extract annovar
 tar xvf annovar.latest.tar.gz
-
+#### build hg38 refGene
 perl annotate_variation.pl -buildver hg38 -downdb -webfrom annovar refGene humandb/
 
 perl annotate_variation.pl -buildver hg38 -downdb cytoBand humandb/
