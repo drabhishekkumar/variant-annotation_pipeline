@@ -1,0 +1,3 @@
+
+
+samtools sort --threads 4  --reference reference.fasta *_R1_R2.bam>*_R1_R2.sorted
